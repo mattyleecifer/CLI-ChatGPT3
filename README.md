@@ -10,5 +10,5 @@ I've added some extra commands to make this less of an issue:
 
 Fun fact, most of this program was written using this program. I made the original loop and then used it to write the other functions eg. removesingle(), removerange(), and add_number_to_line().
 
-#Requirements
+# Requirements
 You will need Python and the OpenAI package (pip install openai).
