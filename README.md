@@ -1,7 +1,7 @@
 # CLI-ChatGPT3
 This is basically just emulating ChatGPT in the command line. The original prompt instructs GPT-3 to 'Answer like you are ChatGPT' (I know, super creative) and then the script basically loops and keeps a log of all the inputs and outputs so you can maintain a chat conversation.
 
-<img src="https://github.com/mattyleecifer/CLI-ChatGPT3/blob/main/gptsarcasm.png" alt="GPT being sarcastic" height=500/>
+<img src="https://github.com/mattyleecifer/CLI-ChatGPT3/blob/main/gptsarcasm.png" alt="GPT being sarcastic" height="500" />
 
 Each loop contains every other loop - this means that it can get expensive very quickly. 
 
