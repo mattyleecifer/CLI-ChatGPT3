@@ -1,5 +1,4 @@
-import openai, pyperclip, sys
-from IPython.display import clear_output
+import openai
 
 openai.api_key = "sk-yourkeyhere"
 
@@ -13,7 +12,6 @@ def chat():
     text = "Answer like you are ChatGPT.\n"
     totalcount = 0
     while True:
-        clear_output()
         try:
             print(text + "\nTokencount: " + str(tokencount) + "\nTotal: " + str(totalcount) + "\n")
         except:
