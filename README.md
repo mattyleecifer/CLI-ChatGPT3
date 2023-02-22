@@ -9,3 +9,6 @@ I've added some extra commands to make this less of an issue:
 - I know I said individual lines in the above line, but need to add a ',' if you want to delete an single individual line (eg. 1,). Sorry.
 
 Fun fact, most of this program was written using this program. I made the original loop and then used it to write the other functions eg. removesingle(), removerange(), and add_number_to_line().
+
+#Requirements
+You will need Python and the OpenAI package (pip install openai).
