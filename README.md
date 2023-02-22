@@ -7,8 +7,8 @@ Each loop contains every other loop - this means that it can get expensive very 
 
 I've added some extra commands to make this less of an issue:
 - Starting a line with ! will erase the entire log and start over
-- Starting a line with @ with enter an edit mode where you can either choose to delete a range of lines (eg. 1:5) or individual lines (eg. 1,4,5,8).-
-- I know I said individual lines in the above line, but need to add a ',' if you want to delete an single individual line (eg. 1,). Sorry.
+- Starting a line with @ with enter an edit mode where you can either choose to delete a range of lines (eg. 1:5) or individual lines (eg. 1,4,5,8)
+- I know I said individual lines above, but you will need to add a ',' if you want to delete an single individual line (eg. 1,). Sorry.
 
 Fun fact, most of this program was written using this program. I made the original loop and then used it to write the other functions eg. removesingle(), removerange(), and add_number_to_line().
 
