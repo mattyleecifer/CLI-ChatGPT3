@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "sk-yourkeyhere"
+openai.api_key = "yourkeyhere"
 
 # model = "text-chat-davinci-002-20221122"
 model = "text-davinci-003"
