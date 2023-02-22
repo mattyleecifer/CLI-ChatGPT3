@@ -13,4 +13,4 @@ Fun fact, most of this program was written using this program. I made the origin
 # Requirements
 You will need Python and the OpenAI package (pip install openai).
 
-You will also need to obtain an [OpenAI API key](https://platform.openai.com/account/api-keys) and enter it into line 3 of the script where it says 'openai.api_key = "yourkeyhere"
+You will also need to obtain an [OpenAI API key](https://platform.openai.com/account/api-keys) and enter it into line 3 of the script where it says openai.api_key = "yourkeyhere"
