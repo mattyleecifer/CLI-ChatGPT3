@@ -13,7 +13,7 @@ def chat():
     totalcount = 0
     while True:
         try:
-            print(text + "\nTokencount: " + str(tokencount) + "\nTotal: " + str(totalcount) + "\n")
+            print(text + "\nTokencount: " + str(tokencount) + "    Total: " + str(totalcount) + "    Estimated cost: $" + str((totalcount / 1000) * 0.02) + "\n")
         except:
             print(text + "\n")
         userinput = input("User: ")
