@@ -27,16 +27,20 @@ def chat():
             output = add_number_to_line(text, 0)
             print(output + "\n")
             editchoice = input("What lines do you want to remove? Enter range (eg. 1:4) or list (eg. 1,4,5)")
-            if ":" in editchoice:
-                editchoice = editchoice.split(":")
-                editchoice = [int(x) for x in editchoice]
-                text = removerange(editchoice, text)
-            elif "," in editchoice:
-                editchoice = editchoice.split(",")
-                editchoice = [int(x) for x in editchoice]
-                text = removesingle(editchoice, text)
-            else:
-                print("Nothing changed!")
+            try:
+                if ":" in editchoice:
+                    editchoice = editchoice.split(":")
+                    editchoice = [int(x) for x in editchoice]
+                    text = removerange(editchoice, text)
+                elif "," in editchoice:
+                    editchoice = editchoice.split(",")
+                    editchoice = [i for i in editchoice if i != ""]
+                    editchoice = [int(x) for x in editchoice]
+                    text = removesingle(editchoice, text)
+                else:
+                    print("Nothing changed!")
+            except:
+                print("Error in editing log")
         else:
             text = text + "User: " + userinput + "\nChatGPT: "
             response, tokencount = getresponse(text, 0.6, 2000, 1, 0.0, 0.0)
